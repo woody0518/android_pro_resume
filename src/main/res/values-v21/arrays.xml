@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_experia_time">
+        <item>2015.11-2015.12</item>
+        <item>2015.9-2015.11</item>
+        <item>2015.7-2015.9</item>
+        <item>2015.3-2015.7</item>
+        <item>2015.3-2015.7</item>
+    </string-array>
+
+    <string-array name="item_experia">
+        <item>个人简历</item>
+        <item>叫辆货车</item>
+        <item>模仿拉手团购</item>
+        <item>开源中国</item>
+        <item>晴天播放器</item>
+    </string-array>
+
+    <string-array name="item_educated">
+        <item >淮海工学院</item>
+
+    </string-array>
+
+    <string-array name="item_educated_time">
+        <item >2008-2012</item>
+
+    </string-array>
+
+</resources>

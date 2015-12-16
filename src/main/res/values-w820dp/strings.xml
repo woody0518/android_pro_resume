@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="expri_despri">项目描述</string>
+    <string name="expri_soft_envir">软件环境</string>
+    <string name="expri_function">功能描述</string>
+    <string name="technology">技术要点</string>
+    <string name="EnglishName">woody.wang</string>
+    <string name="click_back">点击返回</string>
+    <string name="project_name">项目名称</string>
+</resources>

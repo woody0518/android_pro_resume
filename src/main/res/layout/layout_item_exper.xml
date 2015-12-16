@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tabel_height"
+                android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_expre_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Portfolio"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_normal_size"/>
+
+    <TextView
+        android:id="@+id/tv_expre_starttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_expre_name"
+        android:layout_alignStart="@+id/tv_expre_name"
+        android:layout_below="@+id/tv_expre_name"
+        android:layout_marginTop="@dimen/default_margin"
+        android:text="2015-8-20 - today"
+        android:textSize="@dimen/text_small_size"
+        />
+
+    <ImageView
+        android:id="@+id/expri_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/seletor_expr_item"/>
+
+
+</RelativeLayout>

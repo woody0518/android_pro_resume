@@ -1,0 +1,84 @@
+<root>
+    <project name="个人简历">
+        <environment name="Android 版本2.2 以上"/>
+        <describe name="我的个人简历,我做主，用到很多"/>
+        <function name="项目经验模块展示项目图片和功能"/>
+        <function name="功能描述各个项目的功能模块"/>
+        <function name="技术要点展示项目用到的主要技术"/>
+        <technology name="使用Sax解析Xml，展示项目经验模块"/>
+        <technology name="图片调整大小和简单Ps"/>
+        <technology name="自定义ImageView使用Layout分级图层显示各种轮廓的头像"/>
+        <technology name="线程轮训和观望着模式优化主页数据初始化，优化卡顿问题"/>
+        <technology name="动画显示多线程回收对象资源，优化OOM"/>
+    </project>
+
+    <project name="叫辆货车">
+        <environment name="Android 2.2 以上"/>
+        <describe name="物流类应用，方便货主查找司机"/>
+        <function name="建立常用路线，快速匹配到货源"/>
+        <function name="方便建立货运订单流程，实现统一管理"/>
+        <function name="混合H5实现功能，实现平台资源整合"/>
+        <technology name="使用Volley框架实现和服务器交互"/>
+        <technology name="订单流程实现"/>
+        <technology name="自定义下拉刷新使得个性化"/>
+        <technology name="MVP模型设计优化代码结构"/>
+        <technology name="线程轮训和观望着模式优化主页数据初始化，优化卡顿问题"/>
+    </project>
+
+    <project name="拉手网团购应用">
+        <environment name="Android 2.2 以上"/>
+        <describe name="该软件是一款具有下单购买、查询、订单、搜索商品、留言咨询等常用功能"/>
+        <function name="新手引导界面，引导客户使用软件"/>
+        <function name="首页、推荐商品、热映影片、猜你喜欢"/>
+        <function name="提供智能排序：可以根据价格、评级、商品分类进行排序"/>
+        <function name="提供客户文字商品搜索功能，显示具体的商家信息"/>
+        <function name="提供QQ、微博、微信、支付宝用户登陆第三方登陆"/>
+        <function name="提供设置功能，提供只有在Wifi下下载、消息提醒等功能"/>
+        <function name="提供地图定位功能、指引客户到优惠商家"/>
+
+        <technology name="使用Volley框架解析，和服务器交互"/>
+        <technology name="将从服务器端下载的图片缓存到本地"/>
+        <technology name="使用author协议解决QQ、微博、微信、支付宝相关登陆功能"/>
+        <technology name="使用冒泡法对价格进行排序，并调整对应的商家信息"/>
+        <technology name="使用百度地图API，对客户所在地进行定位，并显示合作商家"/>
+        <technology name="使用Sp、Sqlite、SdCard进行数据缓存"/>
+        <technology name="自定义GridView、ViewPage组件解决卡顿的Bug"/>
+    </project>
+
+    <project name="开源中国应用">
+        <environment name="Android 2.2 以上"/>
+        <describe name="该软件具有供程序员了解行业资讯、技术博客、软件推荐等功能"/>
+        <function name="首页可以侧滑显示资讯、热点、博客、推荐等行业信息，点击可以显示详细内容"/>
+        <function name="具有广告轮播功能，拥有搜索功能， 可以分类显示需求信息"/>
+        <function name="底部可以点击选择信息登录、发动弹、发现好友等功能"/>
+        <function name="提供用户登陆后可以查看收藏，查看博客、可以发送动弹、技术博客"/>
+        <function name="提供黑白夜模式，提供技术问答、开源软件下载"/>
+        <function name="提供设置页面，可以设置加载图片、消息通知、情理缓存、双击退出等功能"/>
+        <function name="提供扫一扫、便签功能、摇一摇功能、查看活动等功能"/>
+
+        <technology name="基于http的post请求使用json格式数据与服务端进行通信"/>
+        <technology name="缓存数据，在登陆界面查看收藏"/>
+        <technology name="使用ViewPager自动播放进行图片轮播"/>
+        <technology name="使用控制反转设计模式，设置黑白夜模式"/>
+    </project>
+
+    <project name="晴天播放器">
+        <environment name="Android 2.2 以上"/>
+        <describe name="该软件是一款音乐播放、下载、搜索、通知栏通知功能"/>
+        <function name="提供新手引导界面，引导客户操作"/>
+        <function name="提供音乐播放，暂停等功能，并显示对应的专辑信息，能够针对选择的播放模式进行下一首"/>
+        <function name="提供音乐收藏、边下载音乐边播放音乐功能，音量控制功能"/>
+        <function name="提供壁纸切换功能，并储存壁纸"/>
+        <function name="可以搜索本地音乐，点击可以播放已经下载的音乐"/>
+        <function name="可以设置提供摇一摇切换、仅在Wifi下载，清理缓存，删除下载音乐，更新版本"/>
+        <function name="提供用户登陆功能、可以查看收藏、查看用户信息"/>
+
+        <technology name="使用Service对音乐进行后台播放处理，通过Java代码调用底层OpenCore库"/>
+        <technology name="解析尾部文件名字，并通过异步下载下载到SdCard"/>
+        <technology name="切换音乐通过广播更新UI专辑信息"/>
+        <technology name="使用ContentResolver查询本地手机中所有音乐信息，并显示在界面上"/>
+        <technology name="使用数据存储历史信息，可以定位到用户的音乐信息"/>
+        <technology name="复写Onkeydown实现自定义音量，通过写基类BaseActivity来设置所有节目的皮肤风格"/>
+    </project>
+
+</root>

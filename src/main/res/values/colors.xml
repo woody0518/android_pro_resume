@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="guideblue">#61A4FF</color>
+    <color name="black">#000000</color>
+    <color name="light_black">#666666</color>
+    <color name="dark_text_color">#474747</color>
+    <color name="light_text_color">#a7a7a7</color>
+    <color name="orange_text_color">#ff971d</color>
+    <color name="drak_orange_text_color">#ef5c21</color>
+    <color name="green_text_color">#98d46b</color>
+    <color name="red_text_color">#fb3939</color>
+    <color name="base_blue">#0084ff</color>
+    <color name="base_color">#31B5CD</color>
+    <color name="orange">#e8604f</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_80">#80ffffff</color>
+    <color name="title_bar_color">#1578d4</color>
+    <color name="navigation_bar_color">#e5e5e5</color>
+    <color name="normal_line_color">#d5d5d5</color>
+    <color name="content_layout_color">#f0f0f0</color>
+    <color name="actionbar_register_press">#4b4b4b</color>
+    <color name="contact_press">#e0e0e5</color>
+    <color name="green">#6fc511</color>
+    <color name="red">#fd4040</color>
+    <color name="add_ll_press">#f08204</color>
+    <color name="edit_ll_press">#559f04</color>
+    <color name="delete_ll_press">#dd0405</color>
+    <color name="dark_gray">#494949</color>
+    <color name="gray">#f5f5f5</color>
+    <color name="darkgray">#bfbfbf</color>
+    <color name="light_gray">#e2e2e2</color>
+    <color name="label_color">#3a3a3a</color>
+    <color name="content_color">#5a5a5a</color>
+    <color name="text_field_color">#bab8b8</color>
+    <color name="gray_yellow">#fcca90</color>
+    <color name="primary">#FF03A9F4</color>
+    <color name="primary_dark">#1578d4</color>
+    <color name="transparent_activity">#9000</color>
+    <color name="bg_category_sub">#f7f7f7</color>
+    <color name="light_white">#f0f0f0</color>
+    <color name="text_input_color">#595959</color>
+    <color name="button_bule_press">#44a0e9</color>
+    <color name="button_bule_nomal">#23adda</color>
+    <color name="status_bar_color">@color/primary_dark</color>
+    <color name="light_orange">#fd5100</color>
+
+</resources>
