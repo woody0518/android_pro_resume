@@ -36,5 +36,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="padding">6dp</dimen>
+    <!--menu的悬浮-->
+    <dimen name="menuSize">50dp</dimen>
 
 </resources>
